@@ -35,9 +35,9 @@
         </p>
 
         <!-- Print the length of the sentence -->
-        <div>
+        <div class="length">
             <strong>Length sentence:</strong>
-            <?php echo $length_sentence; ?>
+            <span class="length-number"><?php echo $length_sentence; ?></span>    
         </div>
 
         <!-- Print the sencence without the censored word -->
